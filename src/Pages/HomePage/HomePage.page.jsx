@@ -18,6 +18,14 @@ const HomePage = () => {
                     <span className="heading-primary-main">Outdoors</span>
                     <span className="heading-primary-sub">is where life happens</span>
                 </h1>
+
+                <a
+                    href="http://localhost:3001"
+                    className='btn btn-white btn-animated'
+                >
+                    Discover Our Tours
+                </a>
+
             </div>
 
         </header>
