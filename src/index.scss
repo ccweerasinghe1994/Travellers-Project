@@ -1,0 +1,31 @@
+/*#7ed56f,#55c57a*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+        body {
+          font-family: 'Lato', sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 1.7;
+          color: #777;
+          padding: 30px;
+        }
+
+
+.img {
+  max-width: 70vw;
+  margin: 2vw;
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.8);
+  transition: 0.2s linear all;
+  border-radius: 2px;
+
+  &:hover {
+    transform: scale(1.04);
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.5);
+  }
+}
