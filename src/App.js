@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import HomePage from "./Pages/HomePage/HomePage.page";
-import Code1 from "./Notes/Universal Selectors/1.note";
+import Note2 from "./Notes/2.note";
+
 function App() {
   console.log('Heloo')
   return (
     <div className="App">
       <HomePage/>
-      <Code1/>
+      <Note2/>
     </div>
   );
 }

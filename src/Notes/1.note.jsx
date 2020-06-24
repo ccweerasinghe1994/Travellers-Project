@@ -1,8 +1,8 @@
 import React from "react";
-import img_2 from '../../img/2.png';
-import img_3 from '../../img/3.png';
-import img_4 from '../../img/4.png';
-import img_5 from '../../img/5.png';
+import img_2 from '../img/2.png';
+import img_3 from '../img/3.png';
+import img_4 from '../img/4.png';
+import img_5 from '../img/5.png';
 
 const Code1 = () => {
     return (
