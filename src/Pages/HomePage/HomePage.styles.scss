@@ -16,11 +16,11 @@
 
 .logo-box {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 4.0rem;
+  left: 4.0rem;
 
   .logo {
-    height: 35px;
+    height: 3.5rem;
 
     &:hover {
       animation: MoveInRight 2s ease-in-out;
@@ -47,9 +47,9 @@
 
   .heading-primary-main {
     display: block;
-    font-size: 60px;
+    font-size: 6.0rem;
     font-weight: 600;
-    letter-spacing: 35px;
+    letter-spacing: 3.5rem;
     animation-name: MoveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -57,11 +57,11 @@
 
   .heading-primary-sub {
     display: block;
-    font-size: 20px;
+    font-size: 2.0rem;
     font-weight: 700;
-    letter-spacing: 17.4px;
+    letter-spacing: 1.74rem;
     animation: MoveInRight 1s ease-out;
-    margin-bottom: 60px
+    margin-bottom: 6.0rem
   }
 }
 
@@ -69,10 +69,10 @@
 @keyframes MoveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10.0rem);
   }
   80% {
-    transform: translateX(20px)
+    transform: translateX(2.0rem)
   }
   100% {
     opacity: 1;
@@ -83,10 +83,10 @@
 @keyframes MoveInRight {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10.0rem);
   }
   80% {
-    transform: translateX(-20px)
+    transform: translateX(-2.0rem)
   }
   100% {
     opacity: 1;

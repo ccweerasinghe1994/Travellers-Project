@@ -1,35 +1,26 @@
 import React from "react";
-import './HomePage.styles.scss'
-import img_6 from '../../img/6.png';
+import "./HomePage.styles.scss";
+import img_6 from "../../img/6.png";
 
 const HomePage = () => {
-    return (
-        <header className='header'>
-            <div className="logo-box">
-                <img
-                    src={img_6}
-                    alt="logo"
-                    className='logo'
-                />
-            </div>
+  return (
+    <header className='header'>
+      <div className='logo-box'>
+        <img src={img_6} alt='logo' className='logo' />
+      </div>
 
-            <div className="text-box">
-                <h1 className="heading-primary">
-                    <span className="heading-primary-main">Outdoors</span>
-                    <span className="heading-primary-sub">is where life happens</span>
-                </h1>
+      <div className='text-box'>
+        <h1 className='heading-primary'>
+          <span className='heading-primary-main'>Outdoors</span>
+          <span className='heading-primary-sub'>is where life happens</span>
+        </h1>
 
-                <a
-                    href="http://localhost:3001"
-                    className='btn btn-white btn-animated'
-                >
-                    Discover Our Tours
-                </a>
-
-            </div>
-
-        </header>
-    )
-}
+        <a href='http://localhost:3000' className='btn btn-white btn-animated'>
+          Discover Our Tours
+        </a>
+      </div>
+    </header>
+  );
+};
 
 export default HomePage;
