@@ -4,16 +4,20 @@ import Code18 from "./Notes/part3/note18.note";
 import Code19 from "./Notes/part3/note19.note";
 import Code20 from "./Notes/part3/note20.note";
 import About from "./Pages/About/about.page";
+import Features from "./Pages/features/features.page";
 
 function App() {
-  console.log('Heloo')
-  return (
-    <div className='App'>
-      <HomePage />
-      <About/>
+    console.log('Heloo')
+    return (
+        <div className='App'>
+            <HomePage/>
+            <main>
+                <About/>
+                <Features/>
+            </main>
 
-    </div>
-  );
+        </div>
+    );
 }
 
 export default App;
