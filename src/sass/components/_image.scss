@@ -1,0 +1,12 @@
+.img {
+  max-width: 70vw;
+  margin: 2vw;
+  box-shadow: 0.6rem 0.6rem 0.9rem rgba($color-black, 0.8);
+  transition: 0.2s linear all;
+  border-radius: 0.2rem;
+
+  &:hover {
+    transform: scale(1.04);
+    box-shadow: 0.6rem 0.6rem 0.9rem rgba($color-black, 0.5);
+  }
+}

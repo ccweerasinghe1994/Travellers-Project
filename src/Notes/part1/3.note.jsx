@@ -1,7 +1,7 @@
 import React from "react";
-import img_14 from '../img/14.png';
-import img_15 from '../img/15.png';
-import img_16 from '../img/16.png';
+import img_14 from '../../img/14.png';
+import img_15 from '../../img/15.png';
+import img_16 from '../../img/16.png';
 
 
 const Note3=()=>{

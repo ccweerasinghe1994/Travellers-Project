@@ -1,11 +1,11 @@
 import React from "react";
-import img_7 from '../img/7.png';
-import img_8 from '../img/8.png';
-import img_9 from '../img/9.png';
-import img_10 from '../img/10.png';
-import img_11 from '../img/11.png';
-import img_12 from '../img/12.png';
-import img_13 from '../img/13.png';
+import img_7 from '../../img/7.png';
+import img_8 from '../../img/8.png';
+import img_9 from '../../img/9.png';
+import img_10 from '../../img/10.png';
+import img_11 from '../../img/11.png';
+import img_12 from '../../img/12.png';
+import img_13 from '../../img/13.png';
 
 const Note2 = () => {
     return (

@@ -1,8 +1,8 @@
 import React from "react";
-import img_20  from '../img/20.png';
-import img_21  from '../img/21.png';
-import img_22  from '../img/22.png';
-import img_23  from '../img/23.png';
+import img_20  from '../../img/20.png';
+import img_21  from '../../img/21.png';
+import img_22  from '../../img/22.png';
+import img_23  from '../../img/23.png';
 
 
 const Note5 =()=>{
