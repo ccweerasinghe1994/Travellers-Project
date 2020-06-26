@@ -1,8 +1,8 @@
 import React from "react";
-import {ReactComponent as Icon} from "../../svg/basic_world.svg";
-import {ReactComponent as Icon2} from "../../svg/basic_compass.svg";
-import {ReactComponent as Icon3} from "../../svg/basic_map.svg";
-import {ReactComponent as Icon4} from "../../svg/basic_heart.svg";
+import {ReactComponent as Icon} from "../../svg/globe.svg";
+import {ReactComponent as Icon2} from "../../svg/compass.svg";
+import {ReactComponent as Icon3} from "../../svg/location.svg";
+import {ReactComponent as Icon4} from "../../svg/gym.svg";
 import CodeSnippet from "../../util/prismjs/codeSnippets";
 
 const Code31 =()=>{

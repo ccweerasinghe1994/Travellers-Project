@@ -1,8 +1,8 @@
 import React from "react";
-import {ReactComponent as Icon} from "../../svg/basic_world.svg";
-import {ReactComponent as Icon2} from "../../svg/basic_compass.svg";
-import {ReactComponent as Icon3} from "../../svg/basic_map.svg";
-import {ReactComponent as Icon4} from "../../svg/basic_heart.svg";
+import {ReactComponent as Icon} from "../../svg/globe.svg";
+import {ReactComponent as Icon2} from "../../svg/compass.svg";
+import {ReactComponent as Icon3} from "../../svg/location.svg";
+import {ReactComponent as Icon4} from "../../svg/gym.svg";
 const Features =()=>{
     return(
 
@@ -12,7 +12,7 @@ const Features =()=>{
             <div className="row">
                 <div className="col-1-of-4">
                     <div className="feature-box">
-                        <Icon className='feature-box__icon icon-basic-world' />
+                        <Icon className='feature-box__icon ' />
                         <h3 className="heading-tertiary u-margin-bottom-small">Explore the world</h3>
                         <p className="feature-box__text">
                         Lorem ipsum dolor sit amet.
