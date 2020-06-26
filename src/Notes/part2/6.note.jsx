@@ -1,5 +1,7 @@
 import React from "react";
 import img_39 from "../../img/39.png";
+
+
 import img_54 from "../../img/54.png";
 
 const Code11 = () => {
@@ -10,6 +12,7 @@ const Code11 = () => {
       <img className='img' src={img_39} alt='' />
       <div>Add This code to the index.scss</div>
       <img className='img' src={img_54} alt='' />
+     
     </div>
   );
 };

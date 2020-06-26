@@ -1,15 +1,20 @@
 import React from "react";
-import img_24 from "../../img/24.png";
+import img_48 from "../../img/48.png";
+import img_49 from "../../img/49.png";
+import img_50 from "../../img/50.png";
+import img_51 from "../../img/50.png";
 
-const Code6 = () => {
+const Code13 = () => {
   return (
     <div>
-      <h1>Three Pillars to write good HTML and CSS</h1>
-
-      <img className='img' src={img_24} alt='' />
-      <div>Body Styles</div>
+      <h1>CSS architecture models and BEM</h1>
+      <img className='img' src={img_48} alt='' />
+      <img className='img' src={img_49} alt='' />
+      <img className='img' src={img_50} alt='' />
+      <img className='img' src={img_51} alt='' />
+     
     </div>
   );
 };
 
-export default Code6;
+export default Code13;
