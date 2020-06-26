@@ -1,12 +1,24 @@
 import React from 'react';
-import Embed from 'react-runkit';
+import CodeSnippet from "../../util/prismjs/codeSnippets";
+import img_56 from '../../img/56.png';
+import img_57 from '../../img/57.png';
+import img_58 from '../../img/58.png';
 
 const Code16 =()=>{
     return(
         <div>
+            <img src={img_56} alt="" className="img"/>
+            <img src={img_57} alt="" className="img"/>
+            <img src={img_58} alt="" className="img"/>
             <h1>Changing All Css to SASS </h1>
-           <div className='code' >
-               <Embed source={`
+          <CodeSnippet codeString={code} language='scss' />
+        </div>
+    )
+}
+
+export default Code16;
+
+const code =`
        
         $color-primary: #55c57a;
         $color-primary-light: #73d56f;
@@ -201,10 +213,4 @@ const Code16 =()=>{
           }
         }
 
-            `}/>
-           </div>
-        </div>
-    )
-}
-
-export default Code16;
+            `
