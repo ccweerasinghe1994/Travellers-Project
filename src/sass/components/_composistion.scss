@@ -30,9 +30,12 @@
       transform: scale(1.05) translateY(-.5rem);
       box-shadow: 0 2.4rem 4rem rgba($color-black, 0.5);
       z-index: 100;
+      cursor: pointer;
     }
   }
-  &:hover &__photo:not(:hover){
+
+  &:hover &__photo:not(:hover) {
+    cursor: pointer;
     transform: scale(.75);
   }
 

@@ -10,25 +10,24 @@ const About = () => {
             <section className="section-about">
                 <div className="u-center-text u-margin-bottom-big ">
                     <h2 className="heading-secondary">
-                        Exiting Tours for brave people
+                        Exiting Tours for the adventures Type
                     </h2>
                 </div>
                 <div className="row">
                     <div className="col-1-of-2">
                         <h3 className="heading-tertiary u-margin-bottom-small ">
-                            Your going to falling in love with neature
+                            Work, Travel, Save, Repeat
                         </h3>
                         <div className="paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias enim facere natus nihil
-                            perferendis repellat voluptate? Ad, alias eaque id iste itaque nihil nulla obcaecati
-                            pariatur quasi, ratione sint, tenetur!
+                            No one realizes how beautiful it is to travel until he comes home and rests his head on his
+                            old, familiar pillow
                         </div>
                         <h3 className="heading-tertiary u-margin-bottom-small">
-                            Live adventures like you never have before
+                            Dare to live the life you’ve always wanted.
                         </h3>
                         <div className="paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias enim facere natus nihil
-                            
+                            Our battered suitcases were piled on the sidewalk again; we had longer ways to go. But no matter, the road is life.
+
                         </div>
                         <a href="" className="btn-text">learn more &rarr;</a>
                     </div>

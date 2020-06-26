@@ -10,8 +10,8 @@ const HomePage = () => {
 
        <div className='header__text-box'>
            <h1 className='heading-primary'>
-               <span className='heading-primary--main'>Outdoors</span>
-               <span className='heading-primary--sub'>is where life happens</span>
+               <span className='heading-primary--main'>travellers</span>
+               <span className='heading-primary--sub'>Don’t listen to what they say. Go see</span>
            </h1>
 
            <a href='http://localhost:3000' className='btn btn--white btn--animated'>

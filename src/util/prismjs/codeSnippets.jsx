@@ -9,7 +9,6 @@ const CodeSnippet = ({codeString, language}) => {
     return (
         <SyntaxHighlighter customStyle={{
             border: '1px solid #8a6363',
-            width: '50vw',
             minWidth:'380px',
             margin: '10px 0',
             fontSize: '1.6rem'
