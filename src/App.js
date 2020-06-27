@@ -16,7 +16,7 @@ function App() {
                 <Features/>
                 <Tours/>
             </main>
-            <Code22/>
+            
         </div>
     );
 }
